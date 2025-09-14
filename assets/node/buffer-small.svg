@@ -1,30 +1,36 @@
 <svg width="900" height="348" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 900 348">
 <rect width="900" height="348" x="0" y="0" fill="#ffffff"></rect>
 <path d="M135.5 65L135.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
-<path d="M304.5 65L304.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
-<path d="M472.5 65L472.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
-<path d="M641.5 65L641.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M231.5 65L231.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M328.5 65L328.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M424.5 65L424.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M520.5 65L520.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M617.5 65L617.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
+<path d="M713.5 65L713.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
 <path d="M810.5 65L810.5 268" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr12-cls-24"></path>
 <path d="M135.5 268L135.5 65" fill="none" pointer-events="visible" stroke="#999" stroke-linecap="round" class="zr12-cls-24"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 253.5)" fill="#111">  rfdc</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 224.5)" fill="#111">  rfdc(circles)</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 195.5)" fill="#111">  nano-copy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 166.5)" fill="#111">  klona</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 137.5)" fill="#111">  clone(circular)</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 108.5)" fill="#111">  clone</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 79.5)" fill="#111">  deepcopy</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 253.5)" fill="#111">    rfdc(circles)</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 224.5)" fill="#111">    rfdc</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 195.5)" fill="#111">    nano-copy</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 166.5)" fill="#111">    clone(circular)</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 137.5)" fill="#111">    klona</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 108.5)" fill="#111">    clone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(131 79.5)" fill="#111">    deepcopy</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(135 276)" fill="#111">0</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(303.75 276)" fill="#111">20.0k</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(472.5 276)" fill="#111">40.0k</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(641.25 276)" fill="#111">60.0k</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 276)" fill="#111">80.0k</text>
-<path d="M135 243.5l636.4 0l0 20l-636.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 214.5l573.2 0l0 20l-573.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 185.5l537.5 0l0 20l-537.5 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 156.5l477.7 0l0 20l-477.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 127.5l440.7 0l0 20l-440.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 98.5l414.7 0l0 20l-414.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
-<path d="M135 69.5l275 0l0 20l-275 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(231.4286 276)" fill="#111">10.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(327.8571 276)" fill="#111">20.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(424.2857 276)" fill="#111">30.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(520.7143 276)" fill="#111">40.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(617.1429 276)" fill="#111">50.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(713.5714 276)" fill="#111">60.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 276)" fill="#111">70.0k</text>
+<path d="M135 243.5l636.6 0l0 20l-636.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 214.5l631.2 0l0 20l-631.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 185.5l618.3 0l0 20l-618.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 156.5l480.8 0l0 20l-480.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 127.5l479.3 0l0 20l-479.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 98.5l446.6 0l0 20l-446.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
+<path d="M135 69.5l305.9 0l0 20l-305.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr12-cls-25"></path>
 <path d="M-93.2 -5l186.4 0l0 28l-186.4 0Z" transform="translate(450 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr12-cls-24"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;" xml:space="preserve" y="9" transform="translate(450 20)" fill="#3c3c41">buffer • small (ops/s)</text>
 <style ><![CDATA[

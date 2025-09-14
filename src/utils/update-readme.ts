@@ -85,7 +85,7 @@ function replaceSection(
 
 function main(): void {
   const { isNode, isBun } = detectRuntime();
-  const fileName = isBun ? "README.bun.md" : isNode ? "README.node.md" : "README.md";
+  const fileName = isBun ? "README.bun.md" : isNode ? "README.md" : "README.md";
   const readmePath = resolve(process.cwd(), fileName);
   const readme = readText(fileName);
 

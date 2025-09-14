@@ -89,7 +89,7 @@ async function renderEchartsBarSVG(
     .sort((a, b) => b[1] - a[1]);
   const count = entries.length;
 
-  const labels = entries.map(([n]) => `  ${n}`);
+  const labels = entries.map(([n]) => `    ${n}`);
   const values = entries.map(([, v]) => v);
 
   const innerHeight = count > 0 ? count * (barHeight + gap) - gap : 0;
@@ -197,7 +197,7 @@ function renderMarkdown(
   const lines: string[] = [];
 
   // print ctx info
-  lines.push(`cpu: ${ctx?.cpu.name}`);
+  lines.push(`cpu: ${ctx?.cpu.name}\n`);
   lines.push(`runtime: ${ctx?.runtime} ${(ctx as any)?.version} (${ctx?.arch})\n`);
 
   for (const taskName of taskNames) {
