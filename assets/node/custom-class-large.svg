@@ -1,0 +1,52 @@
+<svg width="900" height="432" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 900 432">
+<rect width="900" height="432" x="0" y="0" fill="#ffffff"></rect>
+<path d="M154.5 65L154.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M263.5 65L263.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M372.5 65L372.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M482.5 65L482.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M591.5 65L591.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M700.5 65L700.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M810.5 65L810.5 352" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr9-cls-18"></path>
+<path d="M154.5 352L154.5 65" fill="none" pointer-events="visible" stroke="#999" stroke-linecap="round" class="zr9-cls-18"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 337.65)" fill="#111">  rfdc(with Custom Classes)</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 308.95)" fill="#111">  klona/lite</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 280.25)" fill="#111">  klona</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 251.55)" fill="#111">  nano-copy</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 222.85)" fill="#111">  fast-copy</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 194.15)" fill="#111">  es-toolkit.cloneDeep</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 165.45)" fill="#111">  lodash.cloneDeep</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 136.75)" fill="#111">  clone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 108.05)" fill="#111">  clone(circular)</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(149.88 79.35)" fill="#111">  ramda.clone</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(153.88 360)" fill="#111">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(263.2333 360)" fill="#111">2.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(372.5867 360)" fill="#111">4.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(481.94 360)" fill="#111">6.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(591.2933 360)" fill="#111">8.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(700.6467 360)" fill="#111">10.0k</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 360)" fill="#111">12.0k</text>
+<path d="M153.9 327.7l613.2 0l0 19.8l-613.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 299l403.8 0l0 19.8l-403.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 270.3l380.8 0l0 19.8l-380.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 241.6l283.2 0l0 19.8l-283.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 212.9l187.5 0l0 19.8l-187.5 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 184.2l162.4 0l0 19.8l-162.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 155.5l89.8 0l0 19.8l-89.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 126.8l61.4 0l0 19.8l-61.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 98.1l40.8 0l0 19.8l-40.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M153.9 69.4l21.2 0l0 19.8l-21.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr9-cls-19"></path>
+<path d="M-121.7 -5l243.5 0l0 28l-243.5 0Z" transform="translate(450 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr9-cls-18"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;" xml:space="preserve" y="9" transform="translate(450 20)" fill="#3c3c41">custom-class • large (ops/s)</text>
+<style ><![CDATA[
+.zr9-cls-18:hover {
+pointer-events:none;
+}
+.zr9-cls-19:hover {
+cursor:pointer;
+fill:rgba(86,77,251,1);
+}
+
+]]>
+
+</style>
+</svg>
