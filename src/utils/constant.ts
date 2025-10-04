@@ -16,6 +16,7 @@ import * as R from "ramda";
 import rfdcFactory from "rfdc";
 import structuredClonePolyfill from "@ungap/structured-clone";
 import structuredCloneCoreJs from "core-js-pure/actual/structured-clone";
+import { clone as jsondiffpatchClone } from "jsondiffpatch";
 const _ = require('lodash');
 
 export class CustomClass {
@@ -87,6 +88,7 @@ export enum CloneType {
   StructuredClonePolyfill = "@ungap/structured-clone",
   StructuredCloneCoreJs = "core-js/structured-clone",
   JSON = "JSON.stringify/parse",
+  JsonDiffPatchClone = "jsondiffpatch.clone"
 }
 
 const rfdc = rfdcFactory();
@@ -140,4 +142,5 @@ export const CloneFn: Record<CloneType, (v: any) => any> = {
   [CloneType.StructuredClonePolyfill]: structuredClonePolyfill,
   [CloneType.StructuredCloneCoreJs]: structuredCloneCoreJs,
   [CloneType.JSON]: (v) => JSON.parse(JSON.stringify(v)),
+  [CloneType.JsonDiffPatchClone]: jsondiffpatchClone,
 } as const;

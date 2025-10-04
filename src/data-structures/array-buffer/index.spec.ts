@@ -20,6 +20,7 @@ const failCases = buildTestCases([
   CloneType.Rfdc,
   CloneType.RfdcCircles,
   CloneType.JSON,
+  CloneType.JsonDiffPatchClone,
 ]);
 
 function isTypedArray(obj: any): boolean {

@@ -16,6 +16,7 @@ This is a benchmark for JS deep clone libraries.
 | fast-copy | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | fastest-json-copy | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | JSON.stringify/parse | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| jsondiffpatch.clone | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | just-clone | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ |
 | klona | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | klona/json | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -42,29 +43,30 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 41,132 | 4,730 |
-| clone | 20,314 | 354 |
-| clone-deep | 96,850 | 1,731 |
-| clone(circular) | 18,017 | 1,937 |
-| copy-anything | 32,113 | 511 |
-| core-js/structured-clone | 15,301 | 1,840 |
-| deepcopy | 18,781 | 2,143 |
-| es-toolkit.cloneDeep | 52,623 | 5,195 |
-| fast-copy | 106,290 | 10,415 |
-| fastest-json-copy | 219,735 | 4,022 |
-| JSON.stringify/parse | 78,689 | 1,391 |
-| just-clone | 24,655 | 424 |
-| klona | 271,176 | 4,602 |
-| klona/json | 319,770 | 5,566 |
-| klona/lite | 294,095 | 4,944 |
-| lodash.cloneDeep | 32,130 | 3,377 |
-| nano-copy | 102,511 | 10,804 |
-| nanoclone | 145,374 | 14,324 |
-| plain-object-clone | 51,821 | 933 |
-| ramda.clone | 9,714 | 676 |
-| rfdc | 168,016 | 2,825 |
-| rfdc(circles) | 139,002 | 2,398 |
-| structuredClone | 40,268 | 4,519 |
+| @ungap/structured-clone | 40,666 | 4,603 |
+| clone | 20,561 | 344 |
+| clone-deep | 93,042 | 1,698 |
+| clone(circular) | 17,622 | 1,868 |
+| copy-anything | 29,734 | 503 |
+| core-js/structured-clone | 15,556 | 1,857 |
+| deepcopy | 18,565 | 2,031 |
+| es-toolkit.cloneDeep | 52,959 | 5,253 |
+| fast-copy | 99,862 | 9,718 |
+| fastest-json-copy | 223,203 | 3,802 |
+| JSON.stringify/parse | 71,548 | 1,322 |
+| jsondiffpatch.clone | 305,298 | 5,314 |
+| just-clone | 24,359 | 415 |
+| klona | 247,348 | 4,276 |
+| klona/json | 311,466 | 5,401 |
+| klona/lite | 279,231 | 4,744 |
+| lodash.cloneDeep | 30,553 | 3,253 |
+| nano-copy | 103,740 | 10,698 |
+| nanoclone | 134,697 | 14,045 |
+| plain-object-clone | 53,516 | 949 |
+| ramda.clone | 9,735 | 576 |
+| rfdc | 151,328 | 2,704 |
+| rfdc(circles) | 140,351 | 2,413 |
+| structuredClone | 40,546 | 4,469 |
 
 ![json small](assets/node/json-small.svg)
 ![json large](assets/node/json-large.svg)
@@ -73,18 +75,18 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 549,175 | 754 |
-| clone(circular) | 368,451 | 198 |
-| core-js/structured-clone | 308,384 | 291 |
-| deepcopy | 598,160 | 350 |
-| es-toolkit.cloneDeep | 1,502,377 | 1,062 |
-| fast-copy | 2,689,444 | 1,494 |
-| lodash.cloneDeep | 977,580 | 617 |
-| nano-copy | 2,598,807 | 1,875 |
-| nanoclone | 3,993,324 | 2,393 |
-| ramda.clone | 275,654 | 68 |
-| rfdc(circles) | 3,805,678 | 2,649 |
-| structuredClone | 538,098 | 745 |
+| @ungap/structured-clone | 516,688 | 747 |
+| clone(circular) | 366,152 | 184 |
+| core-js/structured-clone | 332,227 | 274 |
+| deepcopy | 608,239 | 342 |
+| es-toolkit.cloneDeep | 1,438,584 | 1,051 |
+| fast-copy | 2,560,951 | 1,552 |
+| lodash.cloneDeep | 925,953 | 608 |
+| nano-copy | 2,727,370 | 1,808 |
+| nanoclone | 3,737,974 | 2,356 |
+| ramda.clone | 271,897 | 63 |
+| rfdc(circles) | 3,809,646 | 2,475 |
+| structuredClone | 536,569 | 733 |
 
 ![json-circular small](assets/node/json-circular-small.svg)
 ![json-circular large](assets/node/json-circular-large.svg)
@@ -93,23 +95,24 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 97,430 | 10,984 |
-| clone | 56,840 | 836 |
-| clone-deep | 138,867 | 2,152 |
-| clone(circular) | 48,465 | 4,675 |
-| core-js/structured-clone | 52,287 | 6,345 |
-| deepcopy | 60,637 | 6,646 |
-| es-toolkit.cloneDeep | 151,068 | 15,429 |
-| fast-copy | 162,295 | 17,617 |
-| just-clone | 108,672 | 2,934 |
-| klona | 396,748 | 5,805 |
-| klona/lite | 425,050 | 6,379 |
-| lodash.cloneDeep | 41,525 | 3,633 |
-| nano-copy | 181,194 | 18,734 |
-| nanoclone | 241,709 | 23,623 |
-| ramda.clone | 41,904 | 4,264 |
-| rfdc(with RegExp) | 336,323 | 4,759 |
-| structuredClone | 97,697 | 11,160 |
+| @ungap/structured-clone | 95,531 | 11,189 |
+| clone | 54,366 | 804 |
+| clone-deep | 139,025 | 2,015 |
+| clone(circular) | 47,357 | 4,562 |
+| core-js/structured-clone | 51,706 | 5,973 |
+| deepcopy | 59,582 | 6,509 |
+| es-toolkit.cloneDeep | 144,224 | 15,344 |
+| fast-copy | 163,577 | 16,999 |
+| jsondiffpatch.clone | 106,954 | 1,567 |
+| just-clone | 100,953 | 2,941 |
+| klona | 388,899 | 5,849 |
+| klona/lite | 412,612 | 5,862 |
+| lodash.cloneDeep | 40,024 | 3,519 |
+| nano-copy | 180,148 | 18,776 |
+| nanoclone | 235,787 | 23,036 |
+| ramda.clone | 40,498 | 4,082 |
+| rfdc(with RegExp) | 320,525 | 4,877 |
+| structuredClone | 94,155 | 10,721 |
 
 ![regexp small](assets/node/regexp-small.svg)
 ![regexp large](assets/node/regexp-large.svg)
@@ -118,24 +121,25 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 51,022 | 15,027 |
-| clone | 25,527 | 477 |
-| clone-deep | 75,161 | 1,312 |
-| clone(circular) | 21,676 | 3,299 |
-| core-js/structured-clone | 14,223 | 2,123 |
-| deepcopy | 28,733 | 6,651 |
-| es-toolkit.cloneDeep | 71,033 | 19,878 |
-| fast-copy | 74,718 | 15,651 |
-| just-clone | 131,054 | 2,286 |
-| klona | 160,769 | 2,888 |
-| klona/lite | 154,530 | 2,897 |
-| lodash.cloneDeep | 31,022 | 4,669 |
-| nano-copy | 99,474 | 19,541 |
-| nanoclone | 145,257 | 26,772 |
-| ramda.clone | 18,755 | 3,216 |
-| rfdc | 213,199 | 3,994 |
-| rfdc(circles) | 209,984 | 3,570 |
-| structuredClone | 52,012 | 15,181 |
+| @ungap/structured-clone | 49,639 | 14,494 |
+| clone | 25,406 | 452 |
+| clone-deep | 69,580 | 1,287 |
+| clone(circular) | 21,115 | 3,280 |
+| core-js/structured-clone | 14,042 | 2,075 |
+| deepcopy | 28,680 | 6,336 |
+| es-toolkit.cloneDeep | 67,043 | 19,633 |
+| fast-copy | 73,992 | 15,470 |
+| jsondiffpatch.clone | 301,563 | 5,876 |
+| just-clone | 133,203 | 2,275 |
+| klona | 150,264 | 2,747 |
+| klona/lite | 157,328 | 2,848 |
+| lodash.cloneDeep | 30,124 | 4,615 |
+| nano-copy | 105,022 | 19,181 |
+| nanoclone | 144,683 | 27,277 |
+| ramda.clone | 18,136 | 3,103 |
+| rfdc | 223,439 | 3,971 |
+| rfdc(circles) | 206,164 | 3,556 |
+| structuredClone | 50,673 | 14,579 |
 
 ![date small](assets/node/date-small.svg)
 ![date large](assets/node/date-large.svg)
@@ -144,16 +148,16 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| clone | 377,679 | 1,132 |
-| clone(circular) | 327,267 | 760 |
-| es-toolkit.cloneDeep | 995,611 | 2,860 |
-| fast-copy | 1,114,714 | 3,456 |
-| klona | 2,003,158 | 6,890 |
-| klona/lite | 2,125,210 | 7,140 |
-| lodash.cloneDeep | 643,019 | 1,657 |
-| nano-copy | 1,524,649 | 5,013 |
-| ramda.clone | 232,138 | 383 |
-| rfdc(with Custom Classes) | 3,805,270 | 11,142 |
+| clone | 361,675 | 1,099 |
+| clone(circular) | 314,893 | 709 |
+| es-toolkit.cloneDeep | 1,015,604 | 2,838 |
+| fast-copy | 961,700 | 3,074 |
+| klona | 1,933,790 | 6,335 |
+| klona/lite | 2,087,899 | 6,987 |
+| lodash.cloneDeep | 623,976 | 1,622 |
+| nano-copy | 1,543,168 | 4,916 |
+| ramda.clone | 221,296 | 373 |
+| rfdc(with Custom Classes) | 3,718,964 | 10,963 |
 
 ![custom-class small](assets/node/custom-class-small.svg)
 ![custom-class large](assets/node/custom-class-large.svg)
@@ -162,14 +166,14 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 40,330 | 14 |
-| core-js/structured-clone | 33,011 | 47 |
-| es-toolkit.cloneDeep | 30,863 | 27 |
-| fast-copy | 42,816 | 49 |
-| klona | 46,863 | 49 |
-| nano-copy | 50,244 | 49 |
-| rfdc(with ArrayBuffer) | 53,271 | 49 |
-| structuredClone | 41,130 | 14 |
+| @ungap/structured-clone | 40,395 | 14 |
+| core-js/structured-clone | 33,734 | 47 |
+| es-toolkit.cloneDeep | 28,571 | 26 |
+| fast-copy | 39,575 | 48 |
+| klona | 46,740 | 48 |
+| nano-copy | 48,131 | 49 |
+| rfdc(with ArrayBuffer) | 50,325 | 49 |
+| structuredClone | 40,460 | 14 |
 
 ![array-buffer small](assets/node/array-buffer-small.svg)
 ![array-buffer large](assets/node/array-buffer-large.svg)
@@ -178,13 +182,13 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| clone | 46,318 | 51 |
-| clone(circular) | 49,859 | 53 |
-| deepcopy | 31,726 | 28 |
-| klona | 49,702 | 53 |
-| nano-copy | 64,115 | 53 |
-| rfdc | 65,455 | 53 |
-| rfdc(circles) | 66,018 | 53 |
+| clone | 50,820 | 52 |
+| clone(circular) | 48,384 | 52 |
+| deepcopy | 32,173 | 27 |
+| klona | 55,299 | 52 |
+| nano-copy | 64,509 | 52 |
+| rfdc | 63,749 | 52 |
+| rfdc(circles) | 67,155 | 52 |
 
 ![buffer small](assets/node/buffer-small.svg)
 ![buffer large](assets/node/buffer-large.svg)
@@ -193,8 +197,8 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| es-toolkit.cloneDeep | 945,646 | 971,910 |
-| lodash.cloneDeep | 377,029 | 371,219 |
+| es-toolkit.cloneDeep | 914,192 | 921,485 |
+| lodash.cloneDeep | 383,552 | 371,446 |
 
 ![buffer-zero-copy small](assets/node/buffer-zero-copy-small.svg)
 ![buffer-zero-copy large](assets/node/buffer-zero-copy-large.svg)
@@ -203,21 +207,21 @@ runtime: node 24.8.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 119,293 | 12,936 |
-| clone | 100,592 | 9,806 |
-| clone(circular) | 90,184 | 7,808 |
-| core-js/structured-clone | 40,675 | 4,163 |
-| deepcopy | 89,621 | 8,988 |
-| es-toolkit.cloneDeep | 272,872 | 25,459 |
-| fast-copy | 274,001 | 24,477 |
-| just-clone | 224,608 | 25,131 |
-| klona | 417,467 | 38,018 |
-| lodash.cloneDeep | 73,427 | 5,716 |
-| nano-copy | 150,495 | 15,140 |
-| nanoclone | 425,143 | 37,400 |
-| rfdc | 153,789 | 20,733 |
-| rfdc(circles) | 152,258 | 20,159 |
-| structuredClone | 123,084 | 13,556 |
+| @ungap/structured-clone | 118,652 | 12,688 |
+| clone | 102,009 | 9,695 |
+| clone(circular) | 84,067 | 7,756 |
+| core-js/structured-clone | 38,108 | 4,090 |
+| deepcopy | 85,371 | 8,363 |
+| es-toolkit.cloneDeep | 274,966 | 24,602 |
+| fast-copy | 263,696 | 24,058 |
+| just-clone | 222,739 | 24,275 |
+| klona | 408,790 | 37,674 |
+| lodash.cloneDeep | 66,928 | 5,653 |
+| nano-copy | 158,587 | 14,805 |
+| nanoclone | 414,181 | 36,774 |
+| rfdc | 153,617 | 19,880 |
+| rfdc(circles) | 154,431 | 19,371 |
+| structuredClone | 117,270 | 12,565 |
 
 ![map-set small](assets/node/map-set-small.svg)
 ![map-set large](assets/node/map-set-large.svg)
