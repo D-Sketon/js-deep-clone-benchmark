@@ -16,10 +16,11 @@ const failCases = buildTestCases([
   CloneType.PlainObjectClone,
   CloneType.JSON,
   CloneType.Rfdc,
-  CloneType.RfdcCircles, 
+  CloneType.RfdcCircles,
   CloneType.StructuredClone,
   CloneType.StructuredClonePolyfill,
   CloneType.StructuredCloneCoreJs,
+  CloneType.JsonDiffPatchClone,
 ]);
 
 function isCustomClass(obj: any): obj is CustomClass {

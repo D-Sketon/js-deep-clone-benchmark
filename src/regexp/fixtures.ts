@@ -66,4 +66,5 @@ export const successCloneType = [
   CloneType.StructuredClonePolyfill,
   CloneType.StructuredCloneCoreJs,
   CloneType.StructuredClone,
+  CloneType.JsonDiffPatchClone,
 ];

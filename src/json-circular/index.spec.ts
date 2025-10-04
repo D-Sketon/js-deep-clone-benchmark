@@ -17,6 +17,7 @@ const failCases = buildTestCases([
   CloneType.KlonaJson,
   CloneType.KlonaLite,
   CloneType.PlainObjectClone,
+  CloneType.JsonDiffPatchClone,
 ]);
 
 function assertCircularStructure(cloned: any) {

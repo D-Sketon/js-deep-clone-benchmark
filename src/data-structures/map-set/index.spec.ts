@@ -15,6 +15,7 @@ const failCases = buildTestCases([
   CloneType.FastestJsonCopy,
   CloneType.PlainObjectClone,
   CloneType.JSON,
+  CloneType.JsonDiffPatchClone,
 ]);
 
 function isMap(obj: any): boolean {

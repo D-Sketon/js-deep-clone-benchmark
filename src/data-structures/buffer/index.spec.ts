@@ -21,6 +21,7 @@ const failCases = buildTestCases([
   CloneType.StructuredClone,
   CloneType.StructuredClonePolyfill,
   CloneType.StructuredCloneCoreJs,
+  CloneType.JsonDiffPatchClone,
 ]);
 
 function isBuffer(obj: any): boolean {
