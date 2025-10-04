@@ -37,6 +37,7 @@
     "es-toolkit": "^1.39.10",
     "fast-copy": "^3.0.2",
     "fastest-json-copy": "^1.0.1",
+    "jsondiffpatch": "^0.7.3",
     "just-clone": "^6.2.0",
     "klona": "^2.0.6",
     "lodash": "^4.17.21",
