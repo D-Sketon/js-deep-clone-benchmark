@@ -42,29 +42,30 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 38,914 | 4,111 |
-| clone | 20,076 | 346 |
-| clone-deep | 92,375 | 1,687 |
-| clone(circular) | 17,803 | 2,018 |
-| copy-anything | 32,720 | 539 |
-| core-js/structured-clone | 14,735 | 1,893 |
-| deepcopy | 17,543 | 2,137 |
-| es-toolkit.cloneDeep | 53,213 | 5,561 |
-| fast-copy | 124,693 | 11,819 |
-| fastest-json-copy | 218,093 | 3,767 |
-| JSON.stringify/parse | 81,621 | 1,350 |
-| just-clone | 24,370 | 420 |
-| klona | 266,853 | 4,475 |
-| klona/json | 306,799 | 5,142 |
-| klona/lite | 297,060 | 5,052 |
-| lodash.cloneDeep | 32,596 | 3,213 |
-| nano-copy | 101,021 | 11,074 |
-| nanoclone | 139,948 | 14,468 |
-| plain-object-clone | 53,273 | 910 |
-| ramda.clone | 10,153 | 601 |
-| rfdc | 166,236 | 2,629 |
-| rfdc(circles) | 155,219 | 2,527 |
-| structuredClone | 38,236 | 4,428 |
+| @ungap/structured-clone | 37,923 | 4,118 |
+| clone | 20,799 | 354 |
+| clone-deep | 101,529 | 1,694 |
+| clone(circular) | 17,851 | 2,007 |
+| copy-anything | 29,758 | 533 |
+| core-js/structured-clone | 14,771 | 1,887 |
+| deepcopy | 18,251 | 2,126 |
+| es-toolkit.cloneDeep | 57,914 | 5,482 |
+| fast-copy | 117,482 | 12,164 |
+| fastest-json-copy | 229,554 | 3,694 |
+| JSON.stringify/parse | 76,876 | 1,321 |
+| jsondiffpatch.clone | 355,022 | 5,989 |
+| just-clone | 24,539 | 427 |
+| klona | 255,911 | 4,524 |
+| klona/json | 327,473 | 5,237 |
+| klona/lite | 284,088 | 5,215 |
+| lodash.cloneDeep | 32,891 | 3,273 |
+| nano-copy | 104,762 | 10,945 |
+| nanoclone | 136,978 | 14,468 |
+| plain-object-clone | 55,157 | 939 |
+| ramda.clone | 9,803 | 712 |
+| rfdc | 180,351 | 2,772 |
+| rfdc(circles) | 148,719 | 2,547 |
+| structuredClone | 39,027 | 4,486 |
 
 ![json small](assets\node25/json-small.svg)
 ![json large](assets\node25/json-large.svg)
@@ -73,18 +74,18 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 511,910 | 764 |
-| clone(circular) | 370,572 | 191 |
-| core-js/structured-clone | 292,200 | 258 |
-| deepcopy | 570,900 | 320 |
-| es-toolkit.cloneDeep | 1,627,274 | 1,127 |
-| fast-copy | 3,191,023 | 1,827 |
-| lodash.cloneDeep | 980,195 | 631 |
-| nano-copy | 2,657,524 | 1,790 |
-| nanoclone | 4,089,676 | 2,400 |
-| ramda.clone | 267,790 | 71 |
-| rfdc(circles) | 3,762,311 | 2,510 |
-| structuredClone | 523,536 | 716 |
+| @ungap/structured-clone | 505,000 | 714 |
+| clone(circular) | 368,929 | 181 |
+| core-js/structured-clone | 310,766 | 280 |
+| deepcopy | 601,764 | 354 |
+| es-toolkit.cloneDeep | 1,585,827 | 1,203 |
+| fast-copy | 2,951,078 | 1,738 |
+| lodash.cloneDeep | 976,892 | 589 |
+| nano-copy | 2,772,568 | 1,909 |
+| nanoclone | 3,666,125 | 2,276 |
+| ramda.clone | 279,196 | 74 |
+| rfdc(circles) | 3,938,745 | 2,585 |
+| structuredClone | 483,655 | 744 |
 
 ![json-circular small](assets\node25/json-circular-small.svg)
 ![json-circular large](assets\node25/json-circular-large.svg)
@@ -93,23 +94,24 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 89,554 | 11,359 |
-| clone | 53,906 | 843 |
-| clone-deep | 151,104 | 2,283 |
-| clone(circular) | 46,229 | 4,429 |
-| core-js/structured-clone | 50,647 | 5,422 |
-| deepcopy | 57,517 | 6,641 |
-| es-toolkit.cloneDeep | 160,697 | 16,080 |
-| fast-copy | 167,974 | 18,223 |
-| just-clone | 100,527 | 2,981 |
-| klona | 364,836 | 5,304 |
-| klona/lite | 397,408 | 5,599 |
-| lodash.cloneDeep | 38,602 | 3,343 |
-| nano-copy | 181,288 | 18,422 |
-| nanoclone | 227,985 | 22,996 |
-| ramda.clone | 41,006 | 4,010 |
-| rfdc(with RegExp) | 329,153 | 4,850 |
-| structuredClone | 87,947 | 11,008 |
+| @ungap/structured-clone | 93,990 | 10,874 |
+| clone | 52,670 | 800 |
+| clone-deep | 154,602 | 2,154 |
+| clone(circular) | 49,484 | 4,782 |
+| core-js/structured-clone | 49,479 | 6,022 |
+| deepcopy | 61,724 | 6,945 |
+| es-toolkit.cloneDeep | 150,062 | 16,123 |
+| fast-copy | 178,151 | 18,287 |
+| jsondiffpatch.clone | 105,171 | 1,635 |
+| just-clone | 98,926 | 1,387 |
+| klona | 381,071 | 5,870 |
+| klona/lite | 418,102 | 5,743 |
+| lodash.cloneDeep | 39,966 | 3,566 |
+| nano-copy | 176,510 | 18,013 |
+| nanoclone | 245,210 | 23,992 |
+| ramda.clone | 40,447 | 4,104 |
+| rfdc(with RegExp) | 319,697 | 4,721 |
+| structuredClone | 94,621 | 10,231 |
 
 ![regexp small](assets\node25/regexp-small.svg)
 ![regexp large](assets\node25/regexp-large.svg)
@@ -118,24 +120,25 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 47,267 | 13,460 |
-| clone | 25,459 | 467 |
-| clone-deep | 69,564 | 1,304 |
-| clone(circular) | 21,346 | 3,274 |
-| core-js/structured-clone | 13,098 | 1,877 |
-| deepcopy | 27,800 | 5,699 |
-| es-toolkit.cloneDeep | 74,376 | 18,791 |
-| fast-copy | 74,559 | 13,910 |
-| just-clone | 126,678 | 2,203 |
-| klona | 131,178 | 2,337 |
-| klona/lite | 135,677 | 2,669 |
-| lodash.cloneDeep | 30,175 | 4,354 |
-| nano-copy | 102,863 | 16,883 |
-| nanoclone | 126,210 | 23,153 |
-| ramda.clone | 18,245 | 2,996 |
-| rfdc | 188,431 | 3,497 |
-| rfdc(circles) | 176,611 | 2,947 |
-| structuredClone | 47,246 | 12,888 |
+| @ungap/structured-clone | 48,463 | 13,107 |
+| clone | 25,936 | 473 |
+| clone-deep | 73,102 | 1,463 |
+| clone(circular) | 21,545 | 3,148 |
+| core-js/structured-clone | 13,008 | 1,906 |
+| deepcopy | 27,881 | 5,358 |
+| es-toolkit.cloneDeep | 75,370 | 19,249 |
+| fast-copy | 75,443 | 14,314 |
+| jsondiffpatch.clone | 259,297 | 5,020 |
+| just-clone | 51,995 | 950 |
+| klona | 130,943 | 2,387 |
+| klona/lite | 144,353 | 2,655 |
+| lodash.cloneDeep | 30,466 | 4,527 |
+| nano-copy | 101,025 | 16,976 |
+| nanoclone | 122,845 | 22,795 |
+| ramda.clone | 18,391 | 3,033 |
+| rfdc | 183,438 | 3,592 |
+| rfdc(circles) | 183,092 | 3,081 |
+| structuredClone | 45,815 | 13,416 |
 
 ![date small](assets\node25/date-small.svg)
 ![date large](assets\node25/date-large.svg)
@@ -144,16 +147,16 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| clone | 389,366 | 1,169 |
-| clone(circular) | 304,117 | 683 |
-| es-toolkit.cloneDeep | 1,101,783 | 3,154 |
-| fast-copy | 1,134,999 | 3,472 |
-| klona | 1,781,322 | 5,946 |
-| klona/lite | 2,078,485 | 6,836 |
-| lodash.cloneDeep | 632,832 | 1,559 |
-| nano-copy | 1,649,568 | 5,061 |
-| ramda.clone | 215,308 | 372 |
-| rfdc(with Custom Classes) | 3,315,574 | 9,585 |
+| clone | 367,444 | 1,085 |
+| clone(circular) | 339,997 | 751 |
+| es-toolkit.cloneDeep | 1,084,337 | 2,999 |
+| fast-copy | 1,135,313 | 3,521 |
+| klona | 1,907,323 | 6,287 |
+| klona/lite | 1,853,969 | 6,384 |
+| lodash.cloneDeep | 677,393 | 1,690 |
+| nano-copy | 1,524,590 | 4,861 |
+| ramda.clone | 220,582 | 375 |
+| rfdc(with Custom Classes) | 3,419,542 | 10,418 |
 
 ![custom-class small](assets\node25/custom-class-small.svg)
 ![custom-class large](assets\node25/custom-class-large.svg)
@@ -162,14 +165,14 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 38,764 | 14 |
-| core-js/structured-clone | 33,802 | 46 |
-| es-toolkit.cloneDeep | 29,205 | 25 |
-| fast-copy | 37,802 | 47 |
-| klona | 42,196 | 48 |
-| nano-copy | 44,427 | 48 |
-| rfdc(with ArrayBuffer) | 44,389 | 48 |
-| structuredClone | 37,000 | 14 |
+| @ungap/structured-clone | 38,680 | 14 |
+| core-js/structured-clone | 32,078 | 47 |
+| es-toolkit.cloneDeep | 29,249 | 25 |
+| fast-copy | 37,603 | 48 |
+| klona | 40,890 | 48 |
+| nano-copy | 46,492 | 48 |
+| rfdc(with ArrayBuffer) | 47,525 | 48 |
+| structuredClone | 37,397 | 14 |
 
 ![array-buffer small](assets\node25/array-buffer-small.svg)
 ![array-buffer large](assets\node25/array-buffer-large.svg)
@@ -178,13 +181,13 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| clone | 49,094 | 51 |
-| clone(circular) | 49,080 | 51 |
-| deepcopy | 31,805 | 27 |
-| klona | 51,314 | 51 |
-| nano-copy | 63,450 | 51 |
-| rfdc | 62,023 | 52 |
-| rfdc(circles) | 68,787 | 52 |
+| clone | 49,800 | 51 |
+| clone(circular) | 50,660 | 52 |
+| deepcopy | 30,854 | 27 |
+| klona | 47,146 | 52 |
+| nano-copy | 61,228 | 52 |
+| rfdc | 64,263 | 51 |
+| rfdc(circles) | 68,200 | 51 |
 
 ![buffer small](assets\node25/buffer-small.svg)
 ![buffer large](assets\node25/buffer-large.svg)
@@ -193,8 +196,8 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| es-toolkit.cloneDeep | 982,507 | 1,014,083 |
-| lodash.cloneDeep | 369,536 | 365,921 |
+| es-toolkit.cloneDeep | 1,007,352 | 960,589 |
+| lodash.cloneDeep | 366,642 | 379,969 |
 
 ![buffer-zero-copy small](assets\node25/buffer-zero-copy-small.svg)
 ![buffer-zero-copy large](assets\node25/buffer-zero-copy-large.svg)
@@ -203,21 +206,21 @@ runtime: node 25.0.0 (x64-win32)
 
 | Library | small (ops/s) | large (ops/s) |
 | -- | --: | --: |
-| @ungap/structured-clone | 109,031 | 12,031 |
-| clone | 104,421 | 10,658 |
-| clone(circular) | 87,545 | 7,578 |
-| core-js/structured-clone | 35,557 | 3,804 |
-| deepcopy | 89,212 | 8,741 |
-| es-toolkit.cloneDeep | 282,629 | 25,351 |
-| fast-copy | 272,431 | 24,894 |
-| just-clone | 235,673 | 24,148 |
-| klona | 388,687 | 35,996 |
-| lodash.cloneDeep | 71,741 | 5,452 |
-| nano-copy | 151,725 | 15,276 |
-| nanoclone | 400,240 | 36,078 |
-| rfdc | 164,404 | 20,609 |
-| rfdc(circles) | 140,379 | 19,379 |
-| structuredClone | 112,079 | 11,764 |
+| @ungap/structured-clone | 109,791 | 12,196 |
+| clone | 106,318 | 9,934 |
+| clone(circular) | 91,033 | 8,082 |
+| core-js/structured-clone | 35,543 | 3,727 |
+| deepcopy | 85,247 | 8,192 |
+| es-toolkit.cloneDeep | 280,206 | 25,035 |
+| fast-copy | 252,408 | 22,847 |
+| just-clone | 103,822 | 24,161 |
+| klona | 401,981 | 33,758 |
+| lodash.cloneDeep | 68,528 | 5,647 |
+| nano-copy | 151,837 | 14,206 |
+| nanoclone | 420,927 | 36,496 |
+| rfdc | 151,000 | 19,817 |
+| rfdc(circles) | 156,605 | 19,417 |
+| structuredClone | 105,362 | 11,115 |
 
 ![map-set small](assets\node25/map-set-small.svg)
 ![map-set large](assets\node25/map-set-large.svg)

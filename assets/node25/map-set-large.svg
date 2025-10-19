@@ -9,8 +9,8 @@
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 477.7667)" fill="#111">    nanoclone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 449.3)" fill="#111">    klona</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 420.8333)" fill="#111">    es-toolkit.cloneDeep</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 392.3667)" fill="#111">    fast-copy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 363.9)" fill="#111">    just-clone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 392.3667)" fill="#111">    just-clone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 363.9)" fill="#111">    fast-copy</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 335.4333)" fill="#111">    rfdc</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 306.9667)" fill="#111">    rfdc(circles)</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 278.5)" fill="#111">    nano-copy</text>
@@ -26,21 +26,21 @@
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(482.96 500)" fill="#111">20.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(646.48 500)" fill="#111">30.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 500)" fill="#111">40.0k</text>
-<path d="M155.9 467.9l589.9 0l0 19.6l-589.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 439.5l588.6 0l0 19.6l-588.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 411l414.5 0l0 19.6l-414.5 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 382.5l407.1 0l0 19.6l-407.1 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 354.1l394.9 0l0 19.6l-394.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 325.6l337 0l0 19.6l-337 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 297.1l316.9 0l0 19.6l-316.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 268.7l249.8 0l0 19.6l-249.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 240.2l196.7 0l0 19.6l-196.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 211.7l192.4 0l0 19.6l-192.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 183.3l174.3 0l0 19.6l-174.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 154.8l142.9 0l0 19.6l-142.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 126.3l123.9 0l0 19.6l-123.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 97.9l89.2 0l0 19.6l-89.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="13" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 69.4l62.2 0l0 19.6l-62.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="14" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 467.9l596.8 0l0 19.6l-596.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 439.5l552 0l0 19.6l-552 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 411l409.4 0l0 19.6l-409.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 382.5l395.1 0l0 19.6l-395.1 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 354.1l373.6 0l0 19.6l-373.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 325.6l324 0l0 19.6l-324 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 297.1l317.5 0l0 19.6l-317.5 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 268.7l232.3 0l0 19.6l-232.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 240.2l199.4 0l0 19.6l-199.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 211.7l181.8 0l0 19.6l-181.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 183.3l162.4 0l0 19.6l-162.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 154.8l134 0l0 19.6l-134 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 126.3l132.2 0l0 19.6l-132.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 97.9l92.3 0l0 19.6l-92.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="13" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 69.4l60.9 0l0 19.6l-60.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="14" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
 <path d="M-101.8 -5l203.5 0l0 28l-203.5 0Z" transform="translate(450 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr17-cls-34"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;" xml:space="preserve" y="9" transform="translate(450 20)" fill="#3c3c41">map-set • large (ops/s)</text>
 <style ><![CDATA[

@@ -14,8 +14,8 @@
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 335.4333)" fill="#111">    rfdc</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 306.9667)" fill="#111">    rfdc(circles)</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 278.5)" fill="#111">    nano-copy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 250.0333)" fill="#111">    @ungap/structured-clone</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 221.5667)" fill="#111">    structuredClone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 250.0333)" fill="#111">    structuredClone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 221.5667)" fill="#111">    @ungap/structured-clone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 193.1)" fill="#111">    clone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 164.6333)" fill="#111">    clone(circular)</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 136.1667)" fill="#111">    deepcopy</text>
@@ -26,21 +26,21 @@
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(482.96 500)" fill="#111">20.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(646.48 500)" fill="#111">30.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 500)" fill="#111">40.0k</text>
-<path d="M155.9 467.9l576.7 0l0 19.6l-576.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 439.5l563.6 0l0 19.6l-563.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 411l419.6 0l0 19.6l-419.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 382.5l405.1 0l0 19.6l-405.1 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 354.1l391 0l0 19.6l-391 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 325.6l318.3 0l0 19.6l-318.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 297.1l308.3 0l0 19.6l-308.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 268.7l239.3 0l0 19.6l-239.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 240.2l212.5 0l0 19.6l-212.5 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 211.7l201.4 0l0 19.6l-201.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 183.3l164 0l0 19.6l-164 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 154.8l136.2 0l0 19.6l-136.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 126.3l136.1 0l0 19.6l-136.1 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 467.9l578 0l0 19.6l-578 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 439.5l572.4 0l0 19.6l-572.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 411l415.6 0l0 19.6l-415.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 382.5l407.4 0l0 19.6l-407.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 354.1l381.9 0l0 19.6l-381.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 325.6l327.4 0l0 19.6l-327.4 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 297.1l306.3 0l0 19.6l-306.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 268.7l240.2 0l0 19.6l-240.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 240.2l209.8 0l0 19.6l-209.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 211.7l199.7 0l0 19.6l-199.7 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 183.3l164.9 0l0 19.6l-164.9 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 154.8l137.3 0l0 19.6l-137.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 126.3l133.2 0l0 19.6l-133.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
 <path d="M155.9 97.9l97.8 0l0 19.6l-97.8 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="13" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
-<path d="M155.9 69.4l63 0l0 19.6l-63 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="14" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
+<path d="M155.9 69.4l64.6 0l0 19.6l-64.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="14" ecmeta_ssr_type="chart" class="zr17-cls-35"></path>
 <path d="M-101.8 -5l203.5 0l0 28l-203.5 0Z" transform="translate(450 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr17-cls-34"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;" xml:space="preserve" y="9" transform="translate(450 20)" fill="#3c3c41">map-set • large (ops/s)</text>
 <style ><![CDATA[

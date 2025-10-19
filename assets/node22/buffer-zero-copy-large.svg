@@ -15,8 +15,8 @@
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(540 136)" fill="#111">600.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(675 136)" fill="#111">800.0k</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(810 136)" fill="#111">1.0M</text>
-<path d="M135 101.4l590.6 0l0 21.7l-590.6 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr15-cls-31"></path>
-<path d="M135 69.9l233.3 0l0 21.7l-233.3 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr15-cls-31"></path>
+<path d="M135 101.4l579 0l0 21.7l-579 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr15-cls-31"></path>
+<path d="M135 69.9l234.2 0l0 21.7l-234.2 0Z" fill="#4F46E5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr15-cls-31"></path>
 <path d="M-134.9 -5l269.7 0l0 28l-269.7 0Z" transform="translate(450 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr15-cls-30"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;" xml:space="preserve" y="9" transform="translate(450 20)" fill="#3c3c41">buffer-zero-copy • large (ops/s)</text>
 <style ><![CDATA[
