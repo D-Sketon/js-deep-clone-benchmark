@@ -28,7 +28,13 @@ function getBenchmarkFilenames(runtime: Runtime): {
   label: string;
 } {
   if (runtime.isBun) return { file: "BENCHMARK_BUN.md", label: "Bun" };
-  if (runtime.isNode) return { file: "BENCHMARK_NODE.md", label: "Node" };
+  if (runtime.isNode) {
+    if (process.versions.node.startsWith("24.")) {
+      return { file: "BENCHMARK_NODE.md", label: "Node" };
+    }
+    const major = parseInt(process.versions.node.split(".")[0], 10);
+    return { file: `BENCHMARK_NODE_${major}.md`, label: "Node" };
+  }
   return { file: "BENCHMARK.md", label: "Benchmark" };
 }
 
@@ -85,7 +91,23 @@ function replaceSection(
 
 function main(): void {
   const { isNode, isBun } = detectRuntime();
-  const fileName = isBun ? "README.bun.md" : isNode ? "README.md" : "README.md";
+  const nodeVersion = isNode
+    ? process.versions.node
+    : undefined;
+  let fileName = "README.md";
+  if (isBun) {
+    fileName = "README.bun.md";
+  } else if (isNode) {
+    if (nodeVersion?.startsWith("24.")) {
+      fileName = "README.md";
+    } else {
+      const major = parseInt(nodeVersion!.split(".")[0], 10);
+      fileName = `README.node${major}.md`;
+    }
+  }
+  if (!existsSync(resolve(process.cwd(), fileName))) {
+    writeFileSync(resolve(process.cwd(), fileName), readText("README.md"), "utf8");
+  }
   const readmePath = resolve(process.cwd(), fileName);
   const readme = readText(fileName);
 

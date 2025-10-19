@@ -251,6 +251,9 @@ function renderMarkdown(
 async function main() {
   const isNode = typeof process !== "undefined" && process.versions.node;
   const isBun = typeof Bun !== "undefined";
+  const nodeVersion = isNode
+    ? process.versions.node
+    : undefined;
   const repoRoot = path.resolve(__dirname, "..", "..");
   const { files, nameMap, metaMap } = await collectBenchMeta(repoRoot);
   if (files.length === 0) {
@@ -264,11 +267,19 @@ async function main() {
     .map((n) => Object.keys(nameMap).find((f) => nameMap[f] === n))
     .filter((v): v is string => Boolean(v));
 
-  const assetsDir = path.join(
-    repoRoot,
-    "assets",
-    isBun ? "bun" : isNode ? "node" : "bench"
-  );
+  let assetsDir: string;
+  if (isBun) {
+    assetsDir = path.join(repoRoot, "assets", "bun");
+  } else if (isNode) {
+    if (nodeVersion?.startsWith("24.")) {
+      assetsDir = path.join(repoRoot, "assets", "node");
+    } else {
+      const major = parseInt(nodeVersion!.split(".")[0], 10);
+      assetsDir = path.join(repoRoot, "assets", `node${major}`);
+    }
+  } else {
+    assetsDir = path.join(repoRoot, "assets", "bench");
+  }
   if (
     !(await fs
       .access(assetsDir)
@@ -307,14 +318,25 @@ async function main() {
       }
     }
     const safeTask = toFileSafeName(name);
+    let basePath: string;
+    if (isBun) {
+      basePath = path.join("assets", "bun");
+    } else if (isNode) {
+      if (nodeVersion?.startsWith("24.")) {
+        basePath = path.join("assets", "node");
+      } else {
+        const major = parseInt(nodeVersion!.split(".")[0], 10);
+        basePath = path.join("assets", `node${major}`);
+      }
+    } else {
+      basePath = path.join("assets", "bench");
+    }
     const relSmall = path.posix.join(
-      "assets",
-      isBun ? "bun" : isNode ? "node" : "bench",
+      basePath,
       `${safeTask}-small.svg`
     );
     const relLarge = path.posix.join(
-      "assets",
-      isBun ? "bun" : isNode ? "node" : "bench",
+      basePath,
       `${safeTask}-large.svg`
     );
     const absSmall = path.join(repoRoot, relSmall);
@@ -341,11 +363,19 @@ async function main() {
   }
 
   const md = renderMarkdown(ctx, aggregate, metaMap, imageMap);
-  const outPath = isBun
-    ? path.join(repoRoot, "BENCHMARK_BUN.md")
-    : isNode
-    ? path.join(repoRoot, "BENCHMARK_NODE.md")
-    : path.join(repoRoot, "BENCHMARK.md");
+  let outPath: string;
+  if (isBun) {
+    outPath = path.join(repoRoot, "BENCHMARK_BUN.md");
+  } else if (isNode) {
+    if (nodeVersion?.startsWith("24.")) {
+      outPath = path.join(repoRoot, "BENCHMARK_NODE.md");
+    } else {
+      const major = parseInt(nodeVersion!.split(".")[0], 10);
+      outPath = path.join(repoRoot, `BENCHMARK_NODE_${major}.md`);
+    }
+  } else {
+    outPath = path.join(repoRoot, "BENCHMARK.md");
+  }
   await fs.writeFile(outPath, md, "utf8");
   console.log(`Generated: ${outPath}`);
 }
