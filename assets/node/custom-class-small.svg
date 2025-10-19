@@ -10,8 +10,8 @@
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 308.95)" fill="#111">    klona/lite</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 280.25)" fill="#111">    klona</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 251.55)" fill="#111">    nano-copy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 222.85)" fill="#111">    fast-copy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 194.15)" fill="#111">    es-toolkit.cloneDeep</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 222.85)" fill="#111">    es-toolkit.cloneDeep</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 194.15)" fill="#111">    fast-copy</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 165.45)" fill="#111">    lodash.cloneDeep</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 136.75)" fill="#111">    clone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(156.6 108.05)" fill="#111">    clone(circular)</text>

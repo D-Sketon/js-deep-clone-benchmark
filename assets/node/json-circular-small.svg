@@ -13,8 +13,8 @@
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 279.375)" fill="#111">    es-toolkit.cloneDeep</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 250.7917)" fill="#111">    lodash.cloneDeep</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 222.2083)" fill="#111">    deepcopy</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 193.625)" fill="#111">    @ungap/structured-clone</text>
-<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 165.0417)" fill="#111">    structuredClone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 193.625)" fill="#111">    structuredClone</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 165.0417)" fill="#111">    @ungap/structured-clone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 136.4583)" fill="#111">    clone(circular)</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 107.875)" fill="#111">    core-js/structured-clone</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" transform="translate(151.92 79.2917)" fill="#111">    ramda.clone</text>
