@@ -67,8 +67,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(circles) | 144,613 | 2,264 |
 | structuredClone | 38,577 | 4,438 |
 
-![json small](assets\node/json-small.svg)
-![json large](assets\node/json-large.svg)
+![json small](assets/node/json-small.svg)
+![json large](assets/node/json-large.svg)
 
 ### json-circular
 
@@ -87,8 +87,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(circles) | 3,533,938 | 2,430 |
 | structuredClone | 532,835 | 756 |
 
-![json-circular small](assets\node/json-circular-small.svg)
-![json-circular large](assets\node/json-circular-large.svg)
+![json-circular small](assets/node/json-circular-small.svg)
+![json-circular large](assets/node/json-circular-large.svg)
 
 ### regexp
 
@@ -113,8 +113,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(with RegExp) | 323,267 | 4,361 |
 | structuredClone | 87,207 | 10,907 |
 
-![regexp small](assets\node/regexp-small.svg)
-![regexp large](assets\node/regexp-large.svg)
+![regexp small](assets/node/regexp-small.svg)
+![regexp large](assets/node/regexp-large.svg)
 
 ### date
 
@@ -140,8 +140,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(circles) | 192,543 | 3,779 |
 | structuredClone | 47,135 | 13,402 |
 
-![date small](assets\node/date-small.svg)
-![date large](assets\node/date-large.svg)
+![date small](assets/node/date-small.svg)
+![date large](assets/node/date-large.svg)
 
 ### custom-class
 
@@ -158,8 +158,8 @@ runtime: node 24.10.0 (x64-win32)
 | ramda.clone | 210,471 | 361 |
 | rfdc(with Custom Classes) | 3,391,639 | 10,575 |
 
-![custom-class small](assets\node/custom-class-small.svg)
-![custom-class large](assets\node/custom-class-large.svg)
+![custom-class small](assets/node/custom-class-small.svg)
+![custom-class large](assets/node/custom-class-large.svg)
 
 ### array-buffer
 
@@ -174,8 +174,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(with ArrayBuffer) | 46,156 | 48 |
 | structuredClone | 38,462 | 14 |
 
-![array-buffer small](assets\node/array-buffer-small.svg)
-![array-buffer large](assets\node/array-buffer-large.svg)
+![array-buffer small](assets/node/array-buffer-small.svg)
+![array-buffer large](assets/node/array-buffer-large.svg)
 
 ### buffer
 
@@ -189,8 +189,8 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc | 65,631 | 51 |
 | rfdc(circles) | 62,086 | 51 |
 
-![buffer small](assets\node/buffer-small.svg)
-![buffer large](assets\node/buffer-large.svg)
+![buffer small](assets/node/buffer-small.svg)
+![buffer large](assets/node/buffer-large.svg)
 
 ### buffer-zero-copy
 
@@ -199,8 +199,8 @@ runtime: node 24.10.0 (x64-win32)
 | es-toolkit.cloneDeep | 1,013,393 | 941,999 |
 | lodash.cloneDeep | 371,771 | 399,181 |
 
-![buffer-zero-copy small](assets\node/buffer-zero-copy-small.svg)
-![buffer-zero-copy large](assets\node/buffer-zero-copy-large.svg)
+![buffer-zero-copy small](assets/node/buffer-zero-copy-small.svg)
+![buffer-zero-copy large](assets/node/buffer-zero-copy-large.svg)
 
 ### map-set
 
@@ -222,5 +222,5 @@ runtime: node 24.10.0 (x64-win32)
 | rfdc(circles) | 155,536 | 18,734 |
 | structuredClone | 111,217 | 12,833 |
 
-![map-set small](assets\node/map-set-small.svg)
-![map-set large](assets\node/map-set-large.svg)
+![map-set small](assets/node/map-set-small.svg)
+![map-set large](assets/node/map-set-large.svg)

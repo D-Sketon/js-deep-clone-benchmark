@@ -39,8 +39,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(circles) | 34,893 | 582 |
 | structuredClone | 28,351 | 2,845 |
 
-![json small](assets\bun/json-small.svg)
-![json large](assets\bun/json-large.svg)
+![json small](assets/bun/json-small.svg)
+![json large](assets/bun/json-large.svg)
 
 ### json-circular
 
@@ -59,8 +59,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(circles) | 1,109,894 | 1,001 |
 | structuredClone | 354,779 | 581 |
 
-![json-circular small](assets\bun/json-circular-small.svg)
-![json-circular large](assets\bun/json-circular-large.svg)
+![json-circular small](assets/bun/json-circular-small.svg)
+![json-circular large](assets/bun/json-circular-large.svg)
 
 ### regexp
 
@@ -85,8 +85,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(with RegExp) | 60,883 | 909 |
 | structuredClone | 56,989 | 8,402 |
 
-![regexp small](assets\bun/regexp-small.svg)
-![regexp large](assets\bun/regexp-large.svg)
+![regexp small](assets/bun/regexp-small.svg)
+![regexp large](assets/bun/regexp-large.svg)
 
 ### date
 
@@ -112,8 +112,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(circles) | 67,398 | 1,266 |
 | structuredClone | 43,741 | 14,736 |
 
-![date small](assets\bun/date-small.svg)
-![date large](assets\bun/date-large.svg)
+![date small](assets/bun/date-small.svg)
+![date large](assets/bun/date-large.svg)
 
 ### custom-class
 
@@ -130,8 +130,8 @@ runtime: bun 1.3.0 (x64-win32)
 | ramda.clone | 198,383 | 326 |
 | rfdc(with Custom Classes) | 1,428,640 | 3,641 |
 
-![custom-class small](assets\bun/custom-class-small.svg)
-![custom-class large](assets\bun/custom-class-large.svg)
+![custom-class small](assets/bun/custom-class-small.svg)
+![custom-class large](assets/bun/custom-class-large.svg)
 
 ### array-buffer
 
@@ -146,8 +146,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(with ArrayBuffer) | 26,452 | 31 |
 | structuredClone | 18,537 | 7 |
 
-![array-buffer small](assets\bun/array-buffer-small.svg)
-![array-buffer large](assets\bun/array-buffer-large.svg)
+![array-buffer small](assets/bun/array-buffer-small.svg)
+![array-buffer large](assets/bun/array-buffer-large.svg)
 
 ### buffer
 
@@ -161,8 +161,8 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc | 123,794 | 34 |
 | rfdc(circles) | 128,879 | 34 |
 
-![buffer small](assets\bun/buffer-small.svg)
-![buffer large](assets\bun/buffer-large.svg)
+![buffer small](assets/bun/buffer-small.svg)
+![buffer large](assets/bun/buffer-large.svg)
 
 ### buffer-zero-copy
 
@@ -171,8 +171,8 @@ runtime: bun 1.3.0 (x64-win32)
 | es-toolkit.cloneDeep | 580,793 | 562,046 |
 | lodash.cloneDeep | 477,589 | 478,323 |
 
-![buffer-zero-copy small](assets\bun/buffer-zero-copy-small.svg)
-![buffer-zero-copy large](assets\bun/buffer-zero-copy-large.svg)
+![buffer-zero-copy small](assets/bun/buffer-zero-copy-small.svg)
+![buffer-zero-copy large](assets/bun/buffer-zero-copy-large.svg)
 
 ### map-set
 
@@ -194,5 +194,5 @@ runtime: bun 1.3.0 (x64-win32)
 | rfdc(circles) | 55,345 | 5,182 |
 | structuredClone | 60,182 | 6,782 |
 
-![map-set small](assets\bun/map-set-small.svg)
-![map-set large](assets\bun/map-set-large.svg)
+![map-set small](assets/bun/map-set-small.svg)
+![map-set large](assets/bun/map-set-large.svg)

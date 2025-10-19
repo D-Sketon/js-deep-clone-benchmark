@@ -320,16 +320,16 @@ async function main() {
     const safeTask = toFileSafeName(name);
     let basePath: string;
     if (isBun) {
-      basePath = path.join("assets", "bun");
+      basePath = path.posix.join("assets", "bun");
     } else if (isNode) {
       if (nodeVersion?.startsWith("24.")) {
-        basePath = path.join("assets", "node");
+        basePath = path.posix.join("assets", "node");
       } else {
         const major = parseInt(nodeVersion!.split(".")[0], 10);
-        basePath = path.join("assets", `node${major}`);
+        basePath = path.posix.join("assets", `node${major}`);
       }
     } else {
-      basePath = path.join("assets", "bench");
+      basePath = path.posix.join("assets", "bench");
     }
     const relSmall = path.posix.join(
       basePath,
