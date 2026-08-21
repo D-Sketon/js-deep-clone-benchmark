@@ -6,6 +6,8 @@ type Runtime = {
   isBun: boolean;
 };
 
+const DEFAULT_NODE_MAJOR = 26;
+
 const SECTION_TITLES = {
   cloneSupport: "Clone Support Matrix",
   benchmark: "Benchmark Results",
@@ -29,7 +31,7 @@ function getBenchmarkFilenames(runtime: Runtime): {
 } {
   if (runtime.isBun) return { file: "BENCHMARK_BUN.md", label: "Bun" };
   if (runtime.isNode) {
-    if (process.versions.node.startsWith("24.")) {
+    if (process.versions.node.startsWith(`${DEFAULT_NODE_MAJOR}.`)) {
       return { file: "BENCHMARK_NODE.md", label: "Node" };
     }
     const major = parseInt(process.versions.node.split(".")[0], 10);
@@ -98,7 +100,7 @@ function main(): void {
   if (isBun) {
     fileName = "README.bun.md";
   } else if (isNode) {
-    if (nodeVersion?.startsWith("24.")) {
+    if (nodeVersion?.startsWith(`${DEFAULT_NODE_MAJOR}.`)) {
       fileName = "README.md";
     } else {
       const major = parseInt(nodeVersion!.split(".")[0], 10);

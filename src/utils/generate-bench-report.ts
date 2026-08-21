@@ -12,6 +12,8 @@ type TaskMeta = {
   group: "json" | "json-circular" | "top" | "ds";
 };
 
+const DEFAULT_NODE_MAJOR = 26;
+
 async function findBenchFiles(root: string): Promise<string[]> {
   const entries = await fs.readdir(root, { withFileTypes: true });
   const files: string[] = [];
@@ -271,7 +273,7 @@ async function main() {
   if (isBun) {
     assetsDir = path.join(repoRoot, "assets", "bun");
   } else if (isNode) {
-    if (nodeVersion?.startsWith("24.")) {
+    if (nodeVersion?.startsWith(`${DEFAULT_NODE_MAJOR}.`)) {
       assetsDir = path.join(repoRoot, "assets", "node");
     } else {
       const major = parseInt(nodeVersion!.split(".")[0], 10);
@@ -322,7 +324,7 @@ async function main() {
     if (isBun) {
       basePath = path.posix.join("assets", "bun");
     } else if (isNode) {
-      if (nodeVersion?.startsWith("24.")) {
+      if (nodeVersion?.startsWith(`${DEFAULT_NODE_MAJOR}.`)) {
         basePath = path.posix.join("assets", "node");
       } else {
         const major = parseInt(nodeVersion!.split(".")[0], 10);
@@ -367,7 +369,7 @@ async function main() {
   if (isBun) {
     outPath = path.join(repoRoot, "BENCHMARK_BUN.md");
   } else if (isNode) {
-    if (nodeVersion?.startsWith("24.")) {
+    if (nodeVersion?.startsWith(`${DEFAULT_NODE_MAJOR}.`)) {
       outPath = path.join(repoRoot, "BENCHMARK_NODE.md");
     } else {
       const major = parseInt(nodeVersion!.split(".")[0], 10);
